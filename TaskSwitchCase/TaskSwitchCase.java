@@ -145,9 +145,9 @@ public class TaskSwitchCase {
                 break;
             case "/":
                 if (num2 == 0) {
-                    System.out.println("Результат деления: " + (num1 / num2));
-                } else {
                     System.out.println("На 0 делить нельзя!");
+                } else {
+                    System.out.println("Результат деления: " + (num1 / num2));
                 }
                 break;
             default:
