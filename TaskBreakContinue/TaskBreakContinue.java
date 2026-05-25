@@ -36,16 +36,19 @@ public class TaskBreakContinue {
             while (true) {
                 System.out.println("Введите число: ");
                 int number = scanner.nextInt();
-                if (number <= 0) {
+                if (number == 0) {
+                    break;
+                }
+                if (number < 0) {
                     continue;
                 }
                 System.out.println(number);
-                break;
             }
         }
 
         // 4
         {
+            scanner.nextLine();
             while (true) {
                 System.out.println("Введите команду: ");
                 String command = scanner.nextLine();
